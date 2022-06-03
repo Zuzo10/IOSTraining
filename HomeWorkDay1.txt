@@ -1,0 +1,79 @@
+Book: The Swift Programming Language
+https://docs.swift.org/swift-book/
+
+1. Read: Control Transfer Statement - Control Flow Section
+Conitnue break Fallthrough return throw
+
+
+2. Read: API Availability - Control Flow Section
+if #available(iOS 10, macOS 10.12, *) {
+    // Use iOS 10 APIs on iOS, and use macOS 10.12 APIs on macOS
+} else {
+    // Fall back to earlier iOS and macOS APIs
+}
+
+3. Read: Recursive Enumerations -
+4. Read: Subscript -
+5. Read: Convenience initializer - Initialization Section
+6. Read: Deinitialization -
+7. Read: Optional Chaining -
+9. Read: Downcasting - Type Casting Section
+10. Read. Delegation - Protocols Section
+10. Read: Optional Protocol Requirements - Protocols Section
+11. Read: Automatic Reference Counting -
+
+## Questions:
+What is the difference between var and let?
+Let is for constants and var  for variable
+
+What is an optional?
+
+Its a type that can hold either a value or no value
+
+
+What is optional chaining vs optional binding?
+
+Optional chaining does not store the value and optional binding does
+
+
+What are the different ways to unwrap an optional? How do they work? Are they safe?
+Forced unwrapping   !   unsafe
+Implicitly unsafe.   !
+Optional binding   comparing with if   safe
+Optional chaining  using count safe
+Nil coalescing operator  ?? Safe
+Guard using guard statement safe
+Optional pattern using if case. Safe
+
+
+What is a closure?
+
+Its a type of function without name
+
+What is the difference between a class and a struct?
+
+Struct  is a value type while class is a reference type
+
+What is the syntax '??' do?
+
+Is an option to unwrap an it Allow to use a default value
+
+What is a tuple?
+
+Its a group of different values and  inside can be of different data types
+
+What is Any vs AnyObject?
+
+Any can represent an instance of any type and any object can represent an instance of any class type
+
+What is a protocol?
+
+Define a blueprint of methods or properties that can then be adopted by classes
+
+What is Delegation
+
+Is a controller object with a defined interface that can be used to control or modify the behavior of another control
+
+
+Read this article
+https://developer.apple.com/documentation/swift/choosing_between_structures_and_classes
